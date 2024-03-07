@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100px;
+    margin-bottom: 15px;
+
+}
+
+.logo {
+    flex: 30%;
+    text-align: left;
+
+}
+
+.logo h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 30px;
+    color: black;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+
+}
+
+.menu {
+    flex: 60%;
+    text-align: right;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: aliceblue;
+    background-color: black;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.menu a:hover {
+    text-decoration: none;
+    color: black;
+    background-color: aliceblue;
+    border: 1px solid black;
+    padding: 20px;
+    transition: 0.3s;
+
+}
+
+.header {
+    display: flex;
+
+    justify-content: center;
+    background-color: gainsboro;
+}
+
+.headline h2 {
+    font-family: 'Permanent Marker', cursive;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+.headline p {
+    font-family: 'Permanent Marker', cursive;
+    width: 60%;
+
+}
+
+
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 1px;
+
+}
+
+video {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.voltar {
+    text-decoration: none;
+    color: aliceblue;
+    background-color: black;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.voltar:hover {
+    text-decoration: none;
+    color: black;
+    background-color: aliceblue;
+    border: 1px solid black;
+    padding: 10px;
+    transition: 0.3s;
+
+}
