@@ -67,6 +67,7 @@
 .headline p {
     font-family: 'Permanent Marker', cursive;
     width: 60%;
+    padding: 10px;
 
 }
 
@@ -98,5 +99,28 @@ video {
     border: 1px solid black;
     padding: 10px;
     transition: 0.3s;
+
+}
+
+.videohub {
+    float: left;
+    width: 30%;
+    height: 30vw;
+    padding: 10px;
+
+
+
+}
+
+.foto {
+    margin: auto;
+}
+
+.videohub:hover {
+
+    opacity: 0.9;
+    content: \25B7;
+    
+
 
 }
